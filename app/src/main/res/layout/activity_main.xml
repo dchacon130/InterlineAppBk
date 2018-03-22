@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="150dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="0dp"
+    tools:context="com.interlineappv30.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgInterline"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
+        android:src="@mipmap/img_interlap1"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:id="@+id/usuarioBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuarioBox"
+        android:maxLength="10"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:id="@+id/passBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passBox"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:imeOptions="actionGo" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLogin"
+        android:layout_marginTop="0dp"/>
+
+</LinearLayout>

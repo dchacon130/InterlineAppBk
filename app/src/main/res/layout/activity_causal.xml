@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.interlineappv30.CausalActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtCod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCod"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtCodEje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCodEje"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:id="@+id/txtNomEje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNomEje"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCodigo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/idCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idCodigo"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtNif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/idNif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idNif"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="45dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtNombreEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNombre"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/idNombreEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idNombreEmp"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtDireccionEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtDireccionEmp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/idDireccionEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idDireccionEmp"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"/>
+
+
+    <TextView
+        android:id="@+id/txtInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtInfo2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"/>
+
+    <Spinner
+        android:id="@+id/spnCausal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spnCausal" />
+
+    <TextView
+        android:id="@+id/txtInfo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtInfo5"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintDocumentoCliente"
+        android:id="@+id/txtDocumentoCliente"
+        android:maxLength="255"
+        android:layout_marginTop="5sp"
+        android:imeOptions="actionNext"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintNombreCliente"
+        android:id="@+id/txtNombreCliente"
+        android:maxLength="255"
+        android:layout_marginTop="5sp"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTelCliente"
+        android:id="@+id/txtTelCliente"
+        android:maxLength="255"
+        android:layout_marginTop="5sp"
+        android:imeOptions="actionNext"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmailCliente"
+        android:id="@+id/txtEmailCliente"
+        android:maxLength="255"
+        android:layout_marginTop="5sp"
+        android:imeOptions="actionSend"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/txtInfo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtInfo4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hinObservación"
+        android:id="@+id/idObservacion"
+        android:maxLength="255"
+        android:imeOptions="actionSend"
+        android:layout_marginTop="5sp"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardarNex"
+        android:id="@+id/nextButton"
+        android:layout_marginTop="0dp"/>
+
+</LinearLayout>

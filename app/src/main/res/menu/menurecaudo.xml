@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/idDocumentos"
+        android:title="@string/txtDocumentos"
+        android:orderInCategory="4"
+        android:showAsAction="never"/>
+    <item android:id="@+id/Exit"
+        android:title="@string/Exit"
+        android:orderInCategory="4"
+        android:showAsAction="never"/>
+</menu>

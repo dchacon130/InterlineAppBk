@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.interlineappv30.PagoActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+    <!-- TITULO -->
+    <TextView
+        android:id="@+id/txtMensajePago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtMensajePago"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+    <!-- TIPO DE PAGO -->
+    <TextView
+        android:id="@+id/txtTipoPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTipoPago"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"/>
+    <Spinner
+        android:id="@+id/spnTipoPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spnTipoPago" />
+    <!-- NUMERO CUENTA -->
+    <TextView
+        android:id="@+id/txtNumeroCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNumeroCuenta"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtPesos"
+        android:id="@+id/idNumeroCuenta"
+        android:maxLength="255"
+        android:layout_marginTop="5sp"
+        android:imeOptions="actionNext"
+        android:inputType="phone"/>
+    <!-- TIPO DE BANCO-->
+    <TextView
+        android:id="@+id/txtTipoBanco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTipoBanco"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:id="@+id/spnTipoBanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spnTipoBanco" />
+    <!-- NUMERO CUENTA -->
+    <TextView
+        android:id="@+id/txtCodigoCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCodigoCuenta"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:id="@+id/spnCodigoCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spnTipoDescuento" />
+
+    <!-- FECHA PAGO -->
+    <TextView
+        android:id="@+id/txtFechaPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtFechaPago"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtDate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnFecha"
+            android:id="@+id/btn_date" />
+    </LinearLayout>
+
+    <!-- VALOR PAGO -->
+    <TextView
+        android:id="@+id/txtValorPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtValorPago"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="00sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtPesos"
+        android:id="@+id/idValorPago"
+        android:maxLength="255"
+        android:layout_marginTop="5sp"
+        android:imeOptions="actionNext"
+        android:inputType="phone"/>
+    <!-- BOTÓN AGREGAR -->
+    <Button
+        android:id="@+id/btnAgregarPago"
+        android:text="@string/btnAgregarPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

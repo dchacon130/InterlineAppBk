@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        tools:context=".FinalActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/txtCod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCod"
+                android:textSize="16dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtCodEje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCodEje"
+                android:textSize="16dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txtNomEje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNomEje"
+                android:textSize="16dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/txtCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCodigo"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/idCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idCodigo"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:id="@+id/CantidadProductosDevolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CantidadProductosDevolver"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/idCantidadProductosDevolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idCantidadProductosDevolver"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/txtNif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/idNif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idNif"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/txtNombreEmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNombreEmpresa"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/idNombreEmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idNombreEmp"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="2sp"
+            android:layout_marginBottom="2sp"/>
+
+        <TextView
+            android:id="@+id/txtDatosDevoluciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtDatosDevoluciones"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="428dp"
+            android:layout_marginTop="3dp"
+            android:id="@android:id/list"></ListView>
+
+    </LinearLayout >
+
+
+</ScrollView>

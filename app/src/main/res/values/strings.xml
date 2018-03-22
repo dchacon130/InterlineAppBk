@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">InterlineApp v4.0</string>
+
+    <string name="txtboleto">N°Boleto: </string>
+    <string name="idboleto">1000</string>
+    <string name="txtPrecintosUsados">Seleccione los precintos usados</string>
+
+    <string name="usuarioBox">Usuario</string>
+    <string name="passBox">Contraseña</string>
+    <string name="btnLogin">Ingresar</string>
+
+    <string name="txtCodEje">COD01</string>
+    <string name="txtNomEje">Nombre Ejecutivo</string>
+    <string name="txtselectCliente">Seleccione un cliente</string>
+    <string name="txtCod">Cod:</string>
+    <string name="txtNom">Nombre:</string>
+
+    <string name="txtCodigo">Codigo: </string>
+    <string name="idCodigo">0000000000</string>
+    <string name="txtNif">Nit: </string>
+    <string name="idNif">000000000</string>
+    <string name="txtNombre">Nombre: </string>
+    <string name="idNombreEmp">NOMBRE DE LA EMPRESA</string>
+    <string name="txtDireccionEmp">Direccion: </string>
+    <string name="idDireccionEmp">000000000</string>
+
+    <string name="txtNCliente">N° Documento Cliente:</string>
+    <string name="txtInfo2">Causal de devolución:</string>
+    <string name="txtInfo4">Observaciones:</string>
+    <string name="hinObservación">...</string>
+    <string name="btnGuardarNex">Continuar</string>
+
+    <string name="txtInfo5">Datos del cliente</string>
+    <string name="hintNombreCliente">Nombre y Apellido</string>
+    <string name="hintTelCliente">Teléfono</string>
+    <string name="hintEmailCliente">Correo Electronico</string>
+    <string name="hintDocumentoCliente">Ingrese Documento Cliente</string>
+
+    <string-array name="spnCausal">
+        <item>Mercancía próxima a vencer</item>
+        <item>Error en la Toma del pedido</item>
+        <item>Cartera Incobrable</item>
+        <item>Precio diferente en orden de compra</item>
+        <item>Pedido repetido</item>
+        <item>Error en digitación</item>
+        <item>Daño de mercancía por mal manejo</item>
+        <item>Error en despacho</item>
+        <item>Cambio de presentación del producto</item>
+        <item>Mercancía con problemas de calidad</item>
+        <item>Error de transmisión de pedido electrónico</item>
+        <item>Recall</item>
+        <item>Mercancía con más de 2 meses de vencido</item>
+        <item>Baja rotación</item>
+    </string-array>
+
+    <string name="id">id</string>
+
+    <string name="txtCausal">Causal: </string>
+    <string name="idCausal">CAUSALXXXXXXX</string>
+    <string name="idDetObservacion">DETALLE DE LA OBSERVACION</string>
+
+    <string name="txtBuscar">Ingrese Número Lote</string>
+    <string name="btnBuscar">Buscar</string>
+
+    <string name="txtInfo6">Datos del producto:</string>
+
+    <string name="txtCodProducto">Codigo:</string>
+    <string name="idCodProducto">PRODUCTO001</string>
+    <string name="txtNombreProducto">Nombre:</string>
+    <string name="idNombreProducto">NOMBRE PRODUCTO ABC</string>
+    <string name="txtLoteProd">Lote:</string>
+    <string name="idLoteProd">ABC147</string>
+    <string name="txtFechaVenc">Fecha Vencimiento:</string>
+    <string name="idFechaVenc">FECHA 01/01/2001</string>
+
+    <string name="txtInfo7">Datos causal de Devolución:</string>
+    <string name="txtInfo8">Datos de la empresa:</string>
+
+    <string name="btnAdicionar">Ingresar nuevo lote</string>
+    <string name="btnPrecinto">Continuar</string>
+    <string name="CantidadProductosDevolver">Cantidad:</string>
+    <string name="idCantidadProductosDevolver">00</string>
+
+    <string name="txtNombreCli">Nombre:</string>
+    <string name="idNombreCli">NOMBRE APELLIDO</string>
+    <string name="txtTelCli">Telefono:</string>
+    <string name="idTelCli">000 0000000</string>
+    <string name="txtEmailCli">Correo Electronico:</string>
+    <string name="idEmailCli">Correo@electronico.com</string>
+
+    <string name="txtCantidadDev">Cantidad de Productos: </string>
+    <string name="hintCantidadDev">Ingrese cantidad</string>
+    <string name="hintObservacion">Observaciones...</string>
+
+    <string name="btnDetalleDevolucion">Detalle Devolucion</string>
+
+    <string name="btnFinalEnviar">Finalizar devolución</string>
+    <string name="txtDatosDevoluciones">Devoluciones generadas</string>
+
+    <string name="txtNombreEmpresa">Empresa: </string>
+    <string name="lista_vacia">No se encontraron datos</string>
+
+    <string name="action_settings">Detalle...</string>
+    <string name="Exit">Salir</string>
+    <string name="Precinto">Precinto</string>
+
+    <string name="txtCantidadDevolucion">Cantidad:</string>
+    <string name="txtid">Id: </string>
+    <string name="btnAsignarPrecinto">Asignar Precinto</string>
+
+
+    <!-- PDF -->
+    <string name="pdfLinea">_______________________________________________________________________________________________________________</string>
+    <string name="invoice_number">Boleto de Devolución: </string>
+    <string name="productos">Productos: </string>
+    <string name="invoice_date">Fecha:</string>
+
+    <string name="detail_total">Total:</string>
+
+    <string name="titCodigo">Código</string>
+    <string name="titNombreProd">Nombre Producto</string>
+    <string name="titLote">Lote</string>
+    <string name="titFecha">Fecha</string>
+    <string name="titCantidad">Cantidad</string>
+    <string name="titObservaciones">Observaciones</string>
+
+    <string name="invoice_subtotal">SubTotal</string>
+    <string name="invoice_tax">Tax</string>
+
+    <string name="tituloEmpresa">Empresa: </string>
+
+    <string name="pdfNombre">Nombre: </string>
+    <string name="pdfCodEmp">Codigo: </string>
+    <string name="pdfDirEmp">Dirección: </string>
+    <string name="pdfMunEmpr">Ciudad: </string>
+    <string name="pdfDepEmp">Departamento: </string>
+    <string name="pdfTelEmp">Telefono: </string>
+    <string name="pdfConEmp">Representante: </string>
+    <string name="pdfEmailEmp">Correo: </string>
+    <string name="pdfPrecEmp">Precintos: </string>
+
+    <string name="tituloCLiente">Cliente: </string>
+
+    <string name="pdfNomCli">Nombre: </string>
+    <string name="pdfDocCli">Documento: </string>
+    <string name="pdfTelCli">Telefono: </string>
+    <string name="pdfEmaiCli">Correo: </string>
+
+    <string name="pdfCausal">Causal: </string>
+    <string name="pdfObservacion">Observación: </string>
+    <string name="pdfNota">Nota: Este documento no tiene valor comercial y no podrá descontarse sin la nota crédito correspondiente.</string>
+
+    <string name="cuerpoCorreo">Apreciado cliente,
+    " +
+    "\n" +
+    "Anexo encontrará boleto de devolución N°  "+consecutivo_boleto+". Le recordamos que esta dirección de e-mail es utilizada solamente para los envíos de la información solicitada. " +
+    "\n" +
+    "Por favor no responder este correo.\n" +
+    "\n" +
+    "Cordialmente,\n" +
+    "\n" +
+    "ENLACE INTERNACIONAL</string>
+
+    <!-- PDF RECAUDOS -->
+    <string name="consecutivo_recaudo">Recaudo N°: </string>
+    <string name="date_recaudo">Fecha:</string>
+    <string name="pdfAscesor">Ascesor: </string>
+    <string name="pdfTransferencia">Transferencia: </string>
+    <string name="pdfCredito">Credito: </string>
+    <string name="pdfTotal">Total: </string>
+    <string name="pdfNifEmp">Nit: </string>
+    <string name="numeroDocumento">Número Documento</string>
+    <string name="tipoFactura">Tipo</string>
+    <string name="fechaDocu">Fecha</string>
+    <string name="fechaVenci">Fecha Vencimiento</string>
+    <string name="recSaldo">Saldo</string>
+    <string name="tituloDocumentos">Detalle de Documentos</string>
+    <string name="tituloPagos">Detalle de Pagos</string>
+    <string name="tituloDescuentos">Detalle Descuentos</string>
+    <string name="pdfNotaRecaudo">Nota: Por políticas de GALDERMA no es permitido el pago en efectivo ni cheques sin cruce
+    restrictivo al primer beneficiario</string>
+    <string name="pdfTipoPago">Tipo de pago</string>
+    <string name="pdfNroCuenta">Código Cuenta</string>
+    <string name="pdfTipoBanco">Tipo Banco</string>
+    <string name="pdfNumCuenta">Número Cuenta</string>
+    <string name="pdfFechaPago">Fecha Pago</string>
+    <string name="pdfValorPago">Valor Pago</string>
+
+    <string name="pdfOdis">Odis</string>
+    <string name="pdfTipoDescuento">Tipo</string>
+    <string name="pdfValorDescuento">Valor</string>
+    <string name="pdfObservacionDesc">Observaciones</string>
+    <!-- ACTIVITY MENU -->
+    <string name="idBtnDevolucion">Devolución</string>
+    <string name="idBtnRecaudo">Recaudo</string>
+    <!-- ACTIVITY RECAUDO -->
+    <string name="txtSaldoTotal">SALDO TOTAL EN CARTERA</string>
+    <string name="txtSaldoCartera30">SALDO CARTERA 1 A 30 DIAS</string>
+    <string name="txtSaldoCartera59">SALDO CARTERA 31 A 59 DIAS</string>
+    <string name="txtSaldoCarteraVencida">SALDO CARTERA VENCIDA</string>
+    <string name="txtSignoPesos">$</string>
+    <string name="txtPesos">0000000</string>
+    <string name="txtBtnPagos">Pagos</string>
+    <string name="txtBtnRecaudar">Recaudar</string>
+    <string name="title_activity_recaudar">RecaudarActivity</string>
+    <!-- ACTIVITY GENERAR RECAUDO -->
+    <string name="txtTotalDocumentos">Total Documentos:</string>
+    <string name="txtTotalPagos">Total Pagos: </string>txtTotalAbonos
+    <string name="txtTotalDescuentos">Total Descuentos: </string>
+    <string name="txtTotalSaldo">Total Saldo: </string>
+    <string name="btnDocumentos">Documentos</string>
+    <string name="btnPago">Pago</string>
+    <string name="btnDescuentos">Descuentos</string>
+    <string name="btnGuardar">Guardar Pago</string>
+    <!-- ACTIVITY DESCUENTOS -->
+    <string name="txtMensaje">Seleccione los Documentos a pagar</string>
+    <string name="txtDocumento">Nro Documento</string>
+    <string name="txtReferenciaFactura">Ref Factura</string>
+    <string name="txtFechaDocumento">FD</string>
+    <string name="txtFechaVencimiento">FV</string>
+    <string name="txtSaldo">Saldo</string>
+    <string name="btnAgregarDocumento">Adicionar Documentos</string>
+    <!-- ACTIVITY DESCUENTOS -->
+    <string name="txtMensajeDescuento">Ingrese los datos de Descuento</string>
+    <string name="txtTipoDescuento">Ingrese el tipo de Descuento</string>
+    <string name="txtValorDescuento">Ingrese el valor del Descuento</string>
+    <string name="txtObservaciones">Observaciones</string>
+    <string-array name="spnTipoDescuento">
+        <item>Saldo a favor</item>
+        <item>Promoción</item>
+    </string-array>
+    <string name="btnAgregarDescuento">Adicionar Descuento</string>
+    <!-- ACTIVITY PAGO -->
+    <string name="btnAgregarPago">Agregar Pago</string>
+    <string name="txtTipoPago">Tipo Pago</string>
+    <string name="txtNumeroCuenta">Número documento</string>
+    <string name="txtTipoBanco">Tipo Banco</string>
+    <string name="txtCodigoCuenta">Codigo Cuenta</string>
+    <string name="txtFechaPago">Fecha Pago</string>
+    <string name="txtValorPago">Valor de Pago</string>
+    <string name="txtMensajePago">Ingrese los datos de pago</string>
+    <string name="btnFecha">Fecha</string>
+    <string-array name="spnTipoPago">
+        <item>Transferencia</item>
+        <item>Cheque</item>
+        <item>Consignación</item>
+    </string-array>
+    <string-array name="spnTipoBanco">
+        <item>Bancolombia</item> <!-- 46763146963 -->
+        <item>Helm Bank</item> <!-- 80145673 -->
+    </string-array>
+    <string name="title_activity_documentos_creados">DocumentosCreados</string>
+    <string name="txtDocumentos">Doc. Seleccionados</string>
+    <string name="txtDatosDocumentos">Documentos Seleccionados</string>
+
+    <string name="txtMensajePagos">Información de pagos realizados</string>
+</resources>

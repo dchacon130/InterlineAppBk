@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.interlineappv30.CausalActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/txtLoteProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtLoteProd"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/loteProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idCodigo"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="28dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/txtCodProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCodProducto"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/codProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idCodigo"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/txtNombreProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNombreProducto"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/nombreProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idCodigo"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/txtCantidadDevolucion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCantidadDevolucion"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/cantidadDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idCodigo"
+            android:textColor="#5d5d5d"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

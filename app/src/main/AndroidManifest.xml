@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.interlineappv30">
+
+    <!-- PERMISOS A INTERNET - RESTFUL - VOILT -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- PERMISOS BASE DE DATOS -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Inicio Permisos requeridos -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <!-- Final  Permisos requeridos -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_interline"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_interline"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientesActivity" />
+        <activity android:name=".DireccionClass" />
+        <activity android:name=".CausalActivity" />
+        <activity android:name=".LoteActivity" />
+        <activity android:name=".DetProductoActivity" />
+        <activity android:name=".FinalActivity" />
+        <activity android:name=".PrecintoActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".RecaudoActivity" />
+        <activity android:name=".PagosActivity" />
+        <activity android:name=".GenerarRecaudoActivity" />
+        <activity android:name=".DocumentosActivity" />
+        <activity android:name=".PagoActivity" />
+        <activity android:name=".DescuentosActivity" />
+        <activity android:name=".DocumentosCreados"></activity>
+    </application>
+
+</manifest>

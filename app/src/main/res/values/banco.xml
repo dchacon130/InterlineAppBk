@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_bancos">
+        <item>@array/bancolombia</item>
+        <item>@array/helmbank</item>
+    </array>
+    <string-array name="bancolombia">
+        <item>46763146963</item>
+    </string-array>
+    <string-array name="helmbank">
+        <item>80145673</item>
+    </string-array>
+</resources>
